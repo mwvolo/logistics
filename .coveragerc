@@ -1,0 +1,5 @@
+[run]
+include = logistics/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
